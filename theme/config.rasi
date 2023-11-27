@@ -17,5 +17,5 @@ configuration {
   no-disable-history: true;
 }
 
-@theme "~/.config/rofi/themes/fresh.rasi"
+@theme "~/.config/rofi/themes/nord-fresh.rasi"
 

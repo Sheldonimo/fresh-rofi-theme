@@ -1,6 +1,7 @@
 <div align="center" class="tip" markdown="1" style>
+
 ![GitHub stars](https://img.shields.io/github/stars/Sheldonimo/fresh-rofi-theme) ![rep size](https://img.shields.io/github/repo-size/Sheldonimo/fresh-rofi-theme) ![Tested on Linux Mint](https://img.shields.io/badge/Tested%20on-linux_mint-brightgreen)
-</div>
+
 </div>
 
 # Fresh Theme for Rofi Launcher
@@ -8,7 +9,9 @@ Enhance your Rofi experience with the Fresh theme! This bash script makes it eas
 
 ### :rocket: Fresh theme
 <div align="center" class="tip" markdown="1" style>
+
 ![Fresh theme](images/fresh-theme.png)
+
 </div>
 
 ## :computer: Installation
@@ -20,6 +23,16 @@ cd fresh-rofi-theme
 chmod +x install.sh
 ./install.sh
 ```
+
+## :zap: Using the Fresh Theme
+
+After installing the Fresh theme for Rofi, enhance your experience with this simple command:
+
+```bash
+rofi -show-icons -modi drun -show drun
+```
+
+**Note:** For quick access, consider assigning this command to a keyboard shortcut in your system settings. This enables you to enjoy the Fresh theme's sleek interface with just a key press, making application launching faster and more convenient.
 
 ## Optional: Don't Have Rofi Yet? Install It!
 
