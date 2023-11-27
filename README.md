@@ -4,15 +4,22 @@
 
 </div>
 
-# Fresh Theme for Rofi Launcher
+# 🌟 Fresh Theme for Rofi Launcher
 Enhance your Rofi experience with the Fresh theme! This bash script makes it easy to install a sleek, modern theme for the Rofi launcher.
 
-### :rocket: Fresh theme
+### :rocket: Fresh Theme Overview
 <div align="center" class="tip" markdown="1" style>
 
 ![Fresh theme](images/fresh-theme.png)
 
 </div>
+
+## :star2: Prerequisites: Fonts Installation
+
+For optimal display of some characters, it's recommended to install **Hack Nerd Font Mono** and/or **Fira Code**. These fonts ensure that all icons and special characters in the Fresh theme load properly. You can download and install these fonts from their respective websites:
+
+- [Hack Nerd Font Mono](https://www.nerdfonts.com/font-downloads)
+- [Fira Code](https://github.com/tonsky/FiraCode)
 
 ## :computer: Installation
 
@@ -34,7 +41,7 @@ rofi -show-icons -modi drun -show drun
 
 **Note:** For quick access, consider assigning this command to a keyboard shortcut in your system settings. This enables you to enjoy the Fresh theme's sleek interface with just a key press, making application launching faster and more convenient.
 
-## Optional: Don't Have Rofi Yet? Install It!
+## 🛠 Optional: Don't Have Rofi Yet? Install It!
 
 If you prefer to manually install Rofi, use the following commands depending on your distribution:
 
@@ -44,7 +51,7 @@ If you prefer to manually install Rofi, use the following commands depending on 
 
 **Note:** These manual steps are optional if you're using our installation script. The script automatically checks if Rofi is installed and, if not, proceeds with the appropriate installation for your system.
 
-> Want to learn more about setting up Rofi, including keyboard shortcuts? Find additional information [here](https://github.com/davatorium/rofi).
+> 📚 Want to learn more about setting up Rofi, including keyboard shortcuts? Find additional information [here](https://github.com/davatorium/rofi).
 
 
 ## What is Rofi?
