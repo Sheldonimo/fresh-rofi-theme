@@ -1,5 +1,6 @@
 <div align="center" class="tip" markdown="1" style>
-![GitHub stars](https://img.shields.io/github/stars/Sheldonimo/fresh-rofi-theme) ![rep size](https://img.shields.io/github/repo-size/Sheldonimo/fresh-rofi-theme)
+![GitHub stars](https://img.shields.io/github/stars/Sheldonimo/fresh-rofi-theme) ![rep size](https://img.shields.io/github/repo-size/Sheldonimo/fresh-rofi-theme) ![Tested on Linux Mint](https://img.shields.io/badge/Tested%20on-linux_mint-brightgreen)
+</div>
 </div>
 
 # Fresh Theme for Rofi Launcher
@@ -7,7 +8,7 @@ Enhance your Rofi experience with the Fresh theme! This bash script makes it eas
 
 ### :rocket: Fresh theme
 <div align="center" class="tip" markdown="1" style>
-![Fresh theme](images/fresh-theme.webp)
+![Fresh theme](images/fresh-theme.png)
 </div>
 
 ## :computer: Installation
