@@ -59,7 +59,7 @@ echo "Moviendo el rofi theme a $root/.config/rofi/themes"
 if [ ! -f $root/.config/rofi/themes/fresh.rasi ]; then
     cp ./theme/fresh.rasi $root/.config/rofi/themes/fresh.rasi
     sudo mv ./theme/fresh.rasi /usr/share/rofi/themes/fresh.rasi
-    if [ "$(lsb_release -is)" = "LinuxMint" ]; then
+    if [ "$(lsb_release -is)" = "Linuxmint" ]; then
         cp ./theme/config.rasi $root/.config/rofi/config.rasi
     else
         rofi-theme-selector
