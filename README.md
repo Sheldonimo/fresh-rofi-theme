@@ -30,6 +30,22 @@ cd fresh-rofi-theme
 chmod +x install.sh
 ./install.sh
 ```
+### :gear: Configuration
+
+- **For Linux Mint users:** The default configuration will be automatically set during installation.
+- **For other distributions:** The `rofi-theme-selector` will be activated after installation. Follow these steps to select the Fresh theme:
+  1. Search in the rofi-theme-selector interface 'fresh' .
+  2. Use the keyboard to navigate and select the Fresh theme.
+  3. Press `Enter` to apply the Fresh theme as your default.
+
+#### 📸 How to Select the Theme
+<div align="center">
+
+![Fresh theme](images/rofi-theme-selector.png)
+
+*Image showing how to use the rofi-theme-selector to choose the Fresh theme.*
+
+</div>
 
 ## :zap: Using the Fresh Theme
 

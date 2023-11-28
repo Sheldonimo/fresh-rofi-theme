@@ -56,8 +56,12 @@ fi
 echo "Moviendo el rofi theme a $root/.config/rofi/themes"
 
 [ ! -d "$root/.config/rofi/themes" ] && mkdir -p "$root/.config/rofi/themes"
-if [ ! -f $root/.config/rofi/themes/nord-fresh.rasi ]; then
-  cp ./theme/nord-fresh.rasi $root/.config/rofi/themes/nord-fresh.rasi
-  sudo mv ./theme/nord-fresh.rasi /usr/share/rofi/themes/nord-fresh.rasi
-  cp ./theme/config.rasi $root/.config/rofi/config.rasi
+if [ ! -f $root/.config/rofi/themes/fresh.rasi ]; then
+    cp ./theme/fresh.rasi $root/.config/rofi/themes/fresh.rasi
+    sudo mv ./theme/fresh.rasi /usr/share/rofi/themes/fresh.rasi
+    if [ "$(lsb_release -is)" = "LinuxMint" ]; then
+        cp ./theme/config.rasi $root/.config/rofi/config.rasi
+    else
+        rofi-theme-selector
+    fi
 fi
