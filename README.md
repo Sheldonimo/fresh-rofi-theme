@@ -14,12 +14,13 @@ Enhance your Rofi experience with the Fresh theme! This bash script makes it eas
 
 </div>
 
-## :star2: Prerequisites: Fonts Installation
+## :star2: Prerequisites: Fonts and Optional Icons Installation
 
-For optimal display of some characters, it's recommended to install **Hack Nerd Font Mono** and/or **Fira Code**. These fonts ensure that all icons and special characters in the Fresh theme load properly. You can download and install these fonts from their respective websites:
+For optimal display of some characters, it's recommended to install **Hack Nerd Font Mono** and **Fira Code**. These fonts ensure that all symbols and special characters in the Fresh theme load properly. Additionally, while optional, you can also install the **Tela Green Dark** icon theme to achieve a look identical to the one shown in the overview image. You can download and install these fonts and the icon theme from their respective websites:
 
 - [Hack Nerd Font Mono](https://www.nerdfonts.com/font-downloads)
 - [Fira Code](https://github.com/tonsky/FiraCode)
+- [Tela Green Dark Icons (Optional)](https://github.com/vinceliuice/Tela-icon-theme)
 
 ## :computer: Installation
 
