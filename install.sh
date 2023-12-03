@@ -56,7 +56,7 @@ fi
 if [ ! -f $root/.config/rofi/themes/fresh.rasi ]; then
     echo "Moving the Rofi theme to $root/.config/rofi/themes"
     cp ./theme/fresh.rasi $root/.config/rofi/themes/fresh.rasi
-    sudo mv ./theme/fresh.rasi /usr/share/rofi/themes/fresh.rasi
+    sudo cp ./theme/fresh.rasi /usr/share/rofi/themes/fresh.rasi
     if [ "$(lsb_release -is)" = "Linuxmint" ]; then
         cp ./theme/config.rasi $root/.config/rofi/config.rasi
     else
