@@ -68,7 +68,7 @@ inputbar {
 
 prompt {
   enabled: true;
-  font: "Fira Code 12";
+  font: "Hack Nerd Font Regular 12";
   padding: 12 0 0 12;
   text-color: @nord-yellow;
 }
